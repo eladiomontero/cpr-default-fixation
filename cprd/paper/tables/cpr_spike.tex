@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{CPR: baseline-corrected net pull toward each default (net\_pull = raw spike $-$ baseline probability of that value), main-run wording (V0\_true) only.}
+\label{tab:cpr_spike}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & $d{=}0$ & $d{=}11$ & $d{=}18$ & $d{=}23$ & $d{=}26$ & $d{=}30$ \\
+\midrule
+gpt\_5.1 & -0.00 & +0.65 & +0.87 & +0.77 & +0.98 & +0.00 \\
+gpt\_5.4 & +0.11 & +0.50 & +0.96 & +0.98 & +0.27 & +0.95 \\
+gpt\_5.4\_mini & +0.40 & +0.94 & +0.91 & +0.95 & +0.90 & +0.56 \\
+gpt\_5.4\_nano & +0.29 & +0.35 & +0.73 & +0.33 & +0.33 & +0.26 \\
+Llama3.3 & +0.00 & +1.00 & +0.99 & +0.12 & +0.01 & +0.01 \\
+Qwen3 & +0.64 & +1.00 & +1.00 & +1.00 & +1.00 & +0.96 \\
+\midrule
+column mean & +0.24 & +0.74 & +0.91 & +0.69 & +0.58 & +0.46 \\
+\bottomrule
+\end{tabular}
+\end{table}

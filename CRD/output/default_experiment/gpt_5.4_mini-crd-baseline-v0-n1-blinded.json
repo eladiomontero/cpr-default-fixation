@@ -1,0 +1,44 @@
+{
+  "model": "gpt_5.4_mini",
+  "condition": "baseline",
+  "variant": null,
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.37733252599209527,
+        "2": 0.0005513122777283108,
+        "4": 0.6221161617301765
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": -0.4746284484863281,
+            "top_logprobs": [
+              {
+                "token": "4",
+                "logprob": -0.4746284484863281
+              },
+              {
+                "token": "0",
+                "logprob": -0.9746284484863281
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 1.0,
+  "argmax": "4",
+  "argmax_prob": 0.6221161617301765,
+  "residual_attributed": {
+    "2": true
+  },
+  "note": "Baseline recovery rerun (recover_crd_baseline.py): original baseline call didn't have all of {0,2,4} in its top-5 alternatives."
+}

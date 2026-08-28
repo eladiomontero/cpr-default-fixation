@@ -1,0 +1,7 @@
+Instructions:
+Choose exactly one gamble from the list presented below.
+Each gamble has two possible outcomes (Event A and Event B) that are equally likely (50% each).
+Your payoff depends on the gamble you choose and which event occurs.
+Return exactly one integer from 1 to 6 representing your chosen gamble.
+
+List of gambles:

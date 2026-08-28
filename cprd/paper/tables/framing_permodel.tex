@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Per-model framing effect: mean net pull at the conflict anchors (CPR: 18, 26; CRD: 0, 2), by wording. -- = excluded (rate-limit failure or unstable baseline).}
+\label{tab:framing_permodel}
+\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & \multicolumn{4}{c}{CPR (mean over $d{=}18,26$)} & \multicolumn{4}{c}{CRD (mean over $d{=}0,2$)} \\
+Model & V0t & V1 & V2 & V3 & V0t & V1 & V2 & V3 \\
+\midrule
+gpt\_5.1 & +0.92 & +0.83 & +0.60 & +1.00 & +0.27 & -0.00 & -0.01 & +0.58 \\
+gpt\_5.4 & +0.62 & +0.88 & +0.34 & +0.66 & +0.00 & +0.00 & +0.00 & +0.48 \\
+gpt\_5.4\_mini & +0.91 & +0.99 & +0.61 & +0.97 & -0.18 & +0.64 & -0.11 & +0.36 \\
+gpt\_5.4\_nano & +0.53 & +0.90 & +0.83 & +0.99 & +0.30 & +0.37 & +0.27 & +0.39 \\
+Llama3.3 & +0.50 & +0.50 & +0.00 & +0.50 & +0.00 & +0.02 & +0.00 & +0.09 \\
+Qwen3 & +1.00 & +1.00 & +0.67 & +1.00 & +0.64 & +0.58 & +0.13 & +0.83 \\
+\bottomrule
+\end{tabular}
+\end{table}

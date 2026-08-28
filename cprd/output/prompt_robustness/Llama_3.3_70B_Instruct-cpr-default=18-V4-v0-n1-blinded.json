@@ -1,0 +1,108 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "default": 18,
+  "variant": "V4",
+  "default_line": "Your extraction this round: 18. This value is pre-selected for you; you can change it if you want.\n\nAnswer format: respond with EXACTLY TWO DIGITS (00 to 30), e.g. \"05\" for five, \"20\" for twenty. No other characters.",
+  "padded_format": true,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": 0.004488440342699523,
+        "6": null,
+        "7": null,
+        "8": 0.07131668269775804,
+        "9": null,
+        "10": 0.8671198122465524,
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": 0.0010015064124832178,
+        "16": null,
+        "17": null,
+        "18": 0.05554148833106887,
+        "19": null,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "10",
+        "positions": [
+          {
+            "token": "10",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "10",
+                "logprob": -0.14257812
+              },
+              {
+                "token": "15",
+                "logprob": -6.90625
+              },
+              {
+                "token": "18",
+                "logprob": -2.890625
+              },
+              {
+                "token": "08",
+                "logprob": -2.640625
+              },
+              {
+                "token": "05",
+                "logprob": -5.40625
+              }
+            ]
+          },
+          {
+            "token": "<|eot_id|>",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "<|eot_id|>",
+                "logprob": -1.5377998e-05
+              },
+              {
+                "token": "<|eom_id|>",
+                "logprob": -13.25
+              },
+              {
+                "token": "TRGL",
+                "logprob": -13.625
+              },
+              {
+                "token": "<|python_tag|>",
+                "logprob": -13.75
+              },
+              {
+                "token": " nuest",
+                "logprob": -14.25
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9994679300305621,
+  "argmax": "10",
+  "argmax_prob": 0.8671198122465524
+}

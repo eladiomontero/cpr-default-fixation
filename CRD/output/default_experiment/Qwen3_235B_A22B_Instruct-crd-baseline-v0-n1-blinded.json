@@ -1,0 +1,52 @@
+{
+  "model": "Qwen3_235B_A22B_Instruct",
+  "condition": "baseline",
+  "variant": null,
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.014687178559621253,
+        "2": 0.157902050360746,
+        "4": 0.8273476001306945
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": -0.1895303577184677,
+            "top_logprobs": [
+              {
+                "token": "4",
+                "logprob": -0.1895303577184677
+              },
+              {
+                "token": "2",
+                "logprob": -1.845780372619629
+              },
+              {
+                "token": "0",
+                "logprob": -4.220780372619629
+              },
+              {
+                "token": "3",
+                "logprob": -10.298905372619629
+              },
+              {
+                "token": "1",
+                "logprob": -11.127030372619629
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9999368290510617,
+  "argmax": "4",
+  "argmax_prob": 0.8273476001306945
+}

@@ -1,0 +1,1 @@
+Your extraction this round: %i. This value is pre-selected for you; you can change it if you want.

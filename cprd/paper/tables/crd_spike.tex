@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{CRD: baseline-corrected net pull toward each pre-filled contribution (net\_pull = raw spike $-$ baseline probability of that value), by anchor and wording. Positive = default adds probability mass beyond the model's own baseline preference.}
+\label{tab:crd_spike}
+\small
+\begin{tabular}{lrrrrrrrrrrrrl}
+\toprule
+Model & \multicolumn{4}{c}{$d{=}0$} & \multicolumn{4}{c}{$d{=}2$} & \multicolumn{4}{c}{$d{=}4$} & baseline \\
+ & V0t & V1 & V2 & V3 & V0t & V1 & V2 & V3 & V0t & V1 & V2 & V3 & argmax \\
+\midrule
+gpt\_5.1 & +0.54 & -0.00 & -0.02 & +0.97 & -0.00 & -0.00 & +0.00 & +0.20 & +0.02 & +0.02 & +0.02 & +0.02 & 4 \\
+gpt\_5.4 & +0.01 & +0.01 & +0.01 & +0.01 & -0.00 & -0.00 & -0.00 & +0.95 & +0.02 & +0.14 & +0.90 & +0.43 & 0 \\
+gpt\_5.4\_mini & -0.35 & +0.61 & -0.23 & -0.00 & -0.00 & +0.67 & -0.00 & +0.73 & +0.37 & +0.35 & +0.28 & +0.38 & 4 \\
+gpt\_5.4\_nano & +0.51 & +0.43 & +0.33 & +0.53 & +0.10 & +0.30 & +0.21 & +0.25 & -0.16 & -0.06 & -0.01 & +0.02 & 4 \\
+Llama3.3 & +0.00 & +0.00 & +0.00 & +0.00 & +0.00 & +0.05 & +0.00 & +0.18 & -0.00 & +0.00 & -0.00 & +0.00 & 4 \\
+Qwen3 & +0.51 & +0.35 & +0.00 & +0.83 & +0.76 & +0.82 & +0.26 & +0.84 & +0.16 & +0.17 & +0.07 & +0.17 & 4 \\
+\midrule
+column mean & +0.20 & +0.23 & +0.02 & +0.39 & +0.14 & +0.31 & +0.08 & +0.52 & +0.07 & +0.11 & +0.21 & +0.17 & \\
+\bottomrule
+\end{tabular}
+\end{table}

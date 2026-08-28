@@ -1,0 +1,6 @@
+Instructions:
+Choose exactly one option from the list presented below.
+Each option is an allocation of points between you and a person, written as (You, Person).
+Use only the numerical allocations shown.
+
+List of choices:

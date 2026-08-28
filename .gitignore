@@ -1,0 +1,23 @@
+# Unrelated project living in the same parent folder - not part of this repo
+centipede/
+
+# OS / editor cruft
+.DS_Store
+.claude/
+__pycache__/
+*.pyc
+
+# LLM response cache - large, purely regenerable, not needed to reproduce results
+llm_cache.db
+
+# Raw human-subjects data: contains MTurk/Prolific participant identifiers
+# (mturk_worker_id, mturk_assignment_id, prolific_id). Never publish this file.
+# Aggregated/anonymized results derived from it (paper/tables, paper/figures,
+# derived_metrics*.csv) are NOT excluded and ARE published.
+cprd/experiment/complete.csv
+
+# Third-party/large binaries not needed to run or review the pipeline
+cprd/experiment/*.pdf
+CRD/experiment/*.pdf
+CRD/experiment/*.docx
+cprd/paper.zip

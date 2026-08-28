@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Model answers by condition (mean extraction, integer scale 0--30).}
+\label{tab:core_answers}
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Model & Baseline & $d{=}0$ & $d{=}11$ & $d{=}18$ & $d{=}23$ & $d{=}26$ & $d{=}30$ \\
+\midrule
+gpt\_5.1 & 30.0 & 29.9 & 10.6 & 19.6 & 24.5 & 26.0 & 30.0 \\
+gpt\_5.4 & 19.8 & 18.2 & 15.4 & 17.9 & 22.6 & 28.9 & 29.8 \\
+gpt\_5.4\_mini & 13.6 & 2.3 & 10.4 & 17.2 & 22.9 & 23.9 & 28.9 \\
+gpt\_5.4\_nano & 15.6 & 13.1 & 7.2 & 15.9 & 13.9 & 14.6 & 11.2 \\
+Llama3.3 & 10.0 & 10.0 & 11.0 & 17.9 & 11.7 & 24.9 & 12.4 \\
+Qwen3 & 9.7$^{\dagger}$ & 0.9 & 11.0 & 18.0 & 23.0 & 26.0 & 28.7 \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+{\footnotesize $^{\dagger}$Reconstructed baseline distribution coverage $=0.884 < 0.95$.}
+\end{table}

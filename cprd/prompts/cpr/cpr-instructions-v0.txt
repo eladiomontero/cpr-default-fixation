@@ -1,0 +1,8 @@
+Instructions:
+You and the other 3 members of your group will be asked to choose how
+many tokens to extract from a shared resource. 
+The sum of all extractions of the group will result in a group payoff. This payoff is
+then distributed to participants proportional to how much they extracted from the
+shared resource. This means that your earnings will depend on your choice
+and the choices of the other 3 group members. Pick exactly one number between 0 and 30.
+Use this table as a reference of the group payoff:

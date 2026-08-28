@@ -1,0 +1,8 @@
+{
+  "model": "gpt_5.4_mini",
+  "default": 26,
+  "variant": "V3",
+  "default_line": "Your extraction this round: 26. The system suggests 26; choose your preferred number.",
+  "padded_format": false,
+  "error": "API call failed: litellm.RateLimitError: RateLimitError: OpenAIException - Flex does not have sufficient resources available to fulfill your request. You can try again later in case more resources are available, or change service_tier=default. Visit the docs at https://platform.openai.com/docs/guides/flex-processing to learn more."
+}

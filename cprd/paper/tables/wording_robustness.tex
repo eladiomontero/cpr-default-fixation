@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{CPR wording robustness at the two load-bearing anchors (raw spike, not baseline-corrected). Cells crossing the 0.5 fixator/rejector line across wordings: gpt_5.1@18, gpt_5.4@18, Llama3.3@18, gpt_5.4@26, gpt_5.4_nano@26}
+\label{tab:wording_robustness}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Model (anchor) & V0\_true & V1 & V2 & V3 \\
+\midrule
+gpt\_5.1 ($d{=}18$) & 0.87 & 0.75 & 0.22 & 1.00 \\
+gpt\_5.4 ($d{=}18$) & 0.96 & 0.88 & 0.18 & 0.94 \\
+gpt\_5.4\_mini ($d{=}18$) & 0.91 & 0.99 & 0.61 & 0.97 \\
+gpt\_5.4\_nano ($d{=}18$) & 0.73 & 0.95 & 0.96 & 0.99 \\
+Llama3.3 ($d{=}18$) & 0.99 & 1.00 & 0.00 & 0.99 \\
+Qwen3 ($d{=}18$) & 1.00 & 1.00 & 0.72 & 1.00 \\
+gpt\_5.1 ($d{=}26$) & 0.98 & 0.92 & 0.97 & 1.00 \\
+gpt\_5.4 ($d{=}26$) & 0.27 & 0.88 & 0.50 & 0.38 \\
+gpt\_5.4\_mini ($d{=}26$) & 0.90 & 0.99 & -- & -- \\
+gpt\_5.4\_nano ($d{=}26$) & 0.33 & 0.86 & 0.71 & 1.00 \\
+Llama3.3 ($d{=}26$) & 0.01 & 0.00 & 0.00 & 0.00 \\
+Qwen3 ($d{=}26$) & 1.00 & 1.00 & 0.62 & 1.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

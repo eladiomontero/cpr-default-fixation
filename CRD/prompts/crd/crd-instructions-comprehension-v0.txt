@@ -1,0 +1,16 @@
+Instructions:
+You and the other 3 members of your group each start with 50 ECU in a
+Private Account. Each round, every group member chooses how many ECU to
+contribute to a shared Public Account. You must choose exactly one value
+from {0, 2, 4} each round. This task lasts 10 rounds.
+
+At the end of each round, if the group's total contribution (yours plus
+the other 3 members') is at least 80 ECU, every group member keeps 100%
+of their Private Account for that round. If the group's total
+contribution is below 80 ECU, every group member keeps only 10% of their
+Private Account for that round (loses 90%).
+
+Contributions to the Public Account cannot be recovered.
+
+This means your earnings depend on both your choice and the choices of
+the other 3 group members.

@@ -1,0 +1,53 @@
+{
+  "model": "gpt_5.1",
+  "condition": "default=2",
+  "variant": "V2",
+  "default_line": "Your contribution this round: 2. A value of 2 is shown by default; select whatever number you prefer.",
+  "crd": [
+    {
+      "sample-0": {
+        "0": 4.936966240634849e-06,
+        "2": 4.7850717579110314e-06,
+        "4": 0.9999902701411391
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": -9.729906196298543e-06,
+            "top_logprobs": [
+              {
+                "token": "4",
+                "logprob": -9.729906196298543e-06
+              },
+              {
+                "token": "0",
+                "logprob": -12.218759536743164
+              },
+              {
+                "token": "2",
+                "logprob": -12.250009536743164
+              },
+              {
+                "token": "\u09ea",
+                "logprob": -21.671884536743164
+              },
+              {
+                "token": "\u0004",
+                "logprob": -23.984384536743164
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9999999921791376,
+  "argmax": "4",
+  "argmax_prob": 0.9999902701411391
+}

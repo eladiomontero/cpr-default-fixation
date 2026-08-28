@@ -1,0 +1,16 @@
+Instructions:
+You and the other 3 members of your group each start with 50 ECU in a
+Private Account. Each of you will be asked to choose how many ECU to
+contribute to a Public Account. You must choose exactly one value from
+{0, 2, 4}.
+
+If the group's total contribution (yours plus the other 3 members') is at
+least 80 ECU, every group member keeps 100% of their Private Account. If
+the group's total contribution is below 80 ECU, every group member keeps
+only 10% of their Private Account (loses 90%).
+
+This means your earnings depend on both your choice and the choices of the
+other 3 group members.
+
+Answer format: respond with a single number, one of 0, 2, or 4, and nothing
+else.

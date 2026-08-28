@@ -1,0 +1,82 @@
+{
+  "model": "gpt_5.4_nano",
+  "default": 18,
+  "variant": "V2",
+  "default_line": "Your extraction this round: 18. A value of 18 is shown by default; select whatever number you prefer.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": 0.006074527644605473,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": 0.008838385570761886,
+        "11": null,
+        "12": 0.011348711715344453,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": 0.9596839759178197,
+        "19": null,
+        "20": 0.0064663010182258816,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "18",
+        "positions": [
+          {
+            "token": "18",
+            "logprob": -0.04115124046802521,
+            "top_logprobs": [
+              {
+                "token": "18",
+                "logprob": -0.04115124046802521
+              },
+              {
+                "token": "12",
+                "logprob": -4.47865104675293
+              },
+              {
+                "token": "10",
+                "logprob": -4.72865104675293
+              },
+              {
+                "token": "20",
+                "logprob": -5.04115104675293
+              },
+              {
+                "token": "0",
+                "logprob": -5.10365104675293
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9924119018667574,
+  "argmax": "18",
+  "argmax_prob": 0.9596839759178197
+}

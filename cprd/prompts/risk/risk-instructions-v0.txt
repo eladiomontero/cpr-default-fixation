@@ -1,0 +1,6 @@
+Instructions:
+Choose exactly one gamble from the list presented below.
+Each gamble has two equally likely outcomes (Event A and Event B), each occurring with 50% probability.
+Return exactly one integer from 1 to 6 representing your chosen gamble.
+
+List of gambles:

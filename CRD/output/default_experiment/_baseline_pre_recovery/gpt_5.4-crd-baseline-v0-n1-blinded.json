@@ -1,0 +1,36 @@
+{
+  "model": "gpt_5.4",
+  "condition": "baseline",
+  "variant": null,
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.9977785026798123,
+        "2": null,
+        "4": null
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "0",
+        "positions": [
+          {
+            "token": "0",
+            "logprob": -0.002223968505859375,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -0.002223968505859375
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9977785026798123,
+  "argmax": "0",
+  "argmax_prob": 0.9977785026798123
+}

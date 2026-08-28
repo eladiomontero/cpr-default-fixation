@@ -1,0 +1,7 @@
+model,n_generations,n_failed_calls,mean_fraction_correct,std_fraction_correct,q1_accuracy,q2_accuracy,q3_accuracy,q4_accuracy,q5_accuracy,q6_accuracy,q7_accuracy
+Llama_3.3_70B_Instruct,20,0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Qwen3_235B_A22B_Instruct,20,0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+gpt_5.1,20,0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+gpt_5.4,20,0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+gpt_5.4_mini,20,4,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+gpt_5.4_nano,20,0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

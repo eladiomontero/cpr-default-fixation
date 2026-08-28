@@ -1,0 +1,53 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "condition": "default=4",
+  "variant": "V2",
+  "default_line": "Your contribution this round: 4. A value of 4 is shown by default; select whatever number you prefer.",
+  "crd": [
+    {
+      "sample-0": {
+        "0": 1.7257827987960214e-08,
+        "2": 9.422454817328475e-07,
+        "4": 0.9999990463261548
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -17.875
+              },
+              {
+                "token": "1",
+                "logprob": -23.5
+              },
+              {
+                "token": "2",
+                "logprob": -13.875
+              },
+              {
+                "token": "3",
+                "logprob": -21.5
+              },
+              {
+                "token": "4",
+                "logprob": -9.536743e-07
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 1.0000000058294645,
+  "argmax": "4",
+  "argmax_prob": 0.9999990463261548
+}

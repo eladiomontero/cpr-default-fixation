@@ -1,0 +1,74 @@
+{
+  "model": "gpt_5.4_mini",
+  "default": 18,
+  "variant": "V0",
+  "default_line": "18 is pre-selected for you. You can change it if you want.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": 0.07377613521785845,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": null,
+        "11": null,
+        "12": 0.02113721663372245,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": 0.8987773217356033,
+        "19": null,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "18",
+        "positions": [
+          {
+            "token": "18",
+            "logprob": -0.106719970703125,
+            "top_logprobs": [
+              {
+                "token": "18",
+                "logprob": -0.106719970703125
+              },
+              {
+                "token": "0",
+                "logprob": -2.606719970703125
+              },
+              {
+                "token": "12",
+                "logprob": -3.856719970703125
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9936906735871842,
+  "argmax": "18",
+  "argmax_prob": 0.8987773217356033
+}

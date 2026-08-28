@@ -1,0 +1,66 @@
+{
+    "DeepSeek_V3.1": {"model": "deepseek-ai/DeepSeek-V3.1",
+        "provider": "huggingface",
+        "kwargs": {
+            "logprobs": true,
+            "top_logprobs": 5,
+            "service_tier": "flex",
+            "chat_template_kwargs": {"enable_thinking": false, "thinking":  false},
+            "reasoning_effort": "none",
+            "allowed_openai_params": ["reasoning_effort"],
+            "n": 1
+        }
+    },
+    "Llama_3.3_70B_Instruct": {"model": "meta-llama/Llama-3.3-70B-Instruct",
+        "provider": "huggingface/together",
+        "kwargs": {
+            "logprobs": true,
+            "top_logprobs": 5,
+            "service_tier": "flex",
+            "chat_template_kwargs": {"enable_thinking": false},
+            "n": 5,
+            "temperature": 1
+        }
+    },
+    "Qwen3_VL_235B_A22B_Instruct": {"model": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+        "provider": "huggingface",
+        "kwargs": {
+            "logprobs": true,
+            "top_logprobs": 5,
+            "service_tier": "flex",
+            "chat_template_kwargs": {"enable_thinking": false},
+            "n": 1
+        }
+    },
+    "Qwen3.5_9B": {"model": "Qwen/Qwen3.5-9B",
+        "provider": "huggingface",
+        "kwargs": {
+            "logprobs": true,
+            "top_logprobs": 10,
+            "service_tier": "flex",
+            "chat_template_kwargs": {"enable_thinking": false},
+            "n": 1
+        }
+    },
+    "gpt_5.1": {"model": "gpt-5.1",
+        "provider": "openai",
+        "kwargs": {
+            "logprobs": true,
+            "top_logprobs": 5,
+            "service_tier": "flex",
+            "reasoning_effort": "none",
+            "n": 2
+        }
+    },
+    "grok4": {"model": "grok-4",
+        "provider": "xai",
+        "kwargs": {
+            "logprobs": true,
+            "top_logprobs": 8,
+            "service_tier": "flex",
+            "chat_template_kwargs": {"enable_thinking": false},
+            "n": 5,
+            "allowed_openai_params": ["service_tier"]
+        }
+    }
+}

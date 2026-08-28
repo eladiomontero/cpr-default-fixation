@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Per-model framing effect under both metrics: mean net\_pull and w\_pull at the conflict anchors (CPR: 18, 26; CRD: 0, 2), by wording. -- = excluded (failed call, missing baseline, or coverage $<0.90$).}
+\label{tab:framing_permodel_wpull}
+\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & \multicolumn{4}{c}{CPR} & \multicolumn{4}{c}{CRD} \\
+Model (metric) & V0t & V1 & V2 & V3 & V0t & V1 & V2 & V3 \\
+\midrule
+gpt\_5.1 (net\_pull) & +0.92 & +0.83 & +0.60 & +1.00 & +0.27 & -0.00 & -0.01 & +0.58 \\
+gpt\_5.1 (w\_pull) & +0.92 & +0.84 & +0.60 & +1.00 & +0.27 & -0.00 & -0.01 & +0.60 \\
+gpt\_5.4 (net\_pull) & +0.62 & +0.88 & +0.34 & +0.66 & +0.00 & +0.00 & +0.00 & +0.48 \\
+gpt\_5.4 (w\_pull) & +0.73 & +0.70 & -0.97 & +0.67 & +0.50 & +0.50 & +0.50 & +0.99 \\
+gpt\_5.4\_mini (net\_pull) & +0.91 & +0.99 & +0.61 & +0.97 & -0.18 & +0.64 & -0.11 & +0.36 \\
+gpt\_5.4\_mini (w\_pull) & +0.90 & +1.00 & +0.53 & +0.99 & -0.28 & +0.84 & -0.18 & +0.37 \\
+gpt\_5.4\_nano (net\_pull) & +0.73 & +0.90 & +0.83 & +0.99 & +0.30 & +0.37 & +0.27 & +0.39 \\
+gpt\_5.4\_nano (w\_pull) & +0.77 & +0.90 & +0.81 & +1.00 & +0.33 & +0.40 & +0.31 & +0.43 \\
+Llama3.3 (net\_pull) & +0.50 & +0.50 & +0.00 & +0.50 & +0.00 & +0.02 & +0.00 & +0.09 \\
+Llama3.3 (w\_pull) & +0.96 & +0.94 & -0.06 & +0.50 & +0.00 & +0.02 & +0.00 & +0.09 \\
+Qwen3 (net\_pull) & -- & -- & -- & -- & +0.64 & +0.58 & +0.13 & +0.83 \\
+Qwen3 (w\_pull) & -- & -- & -- & -- & +0.70 & +0.68 & +0.17 & +0.92 \\
+\bottomrule
+\end{tabular}
+\end{table}

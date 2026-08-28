@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Per-model conflict vs.\ agreement (V0\_true), both metrics reported as net\_pull/w\_pull. Preferred anchor/choice = highest baseline probability (CPR) or baseline argmax (CRD).}
+\label{tab:conflict_agreement_permodel_wpull}
+\small
+\begin{tabular}{lllll}
+\toprule
+ & \multicolumn{2}{c}{CPR} & \multicolumn{2}{c}{CRD} \\
+Model & agree (np/wp) & conflict (np/wp) & agree (np/wp) & conflict (np/wp) \\
+\midrule
+gpt\_5.1 & +0.00/+0.24 & +0.65/+0.72 & +0.02/+1.00 & +0.27/+0.27 \\
+gpt\_5.4 & +0.95/+1.00 & +0.56/+0.61 & +0.01/+1.00 & +0.01/+0.01 \\
+gpt\_5.4\_mini & +0.40/+0.83 & +0.85/+0.94 & excluded & excluded \\
+gpt\_5.4\_nano & +0.26/-0.42 & +0.51/+0.47 & -0.16/-3.97 & +0.30/+0.33 \\
+Llama3.3 & +0.00/-0.00 & +0.42/+0.63 & -- & -- \\
+Qwen3 & +nan/+nan & +nan/+nan & +0.16/+0.93 & +0.64/+0.70 \\
+\bottomrule
+\end{tabular}
+\end{table}

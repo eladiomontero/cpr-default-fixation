@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Per-model conflict vs. agreement (V0\_true). Preferred anchor/choice = highest baseline probability (CPR) or baseline argmax (CRD). This table backs Figure \ref{fig:conflict_vs_agreement} (n = 6 models for CPR, n = 5 for CRD).}
+\label{tab:conflict_agreement_permodel}
+\small
+\begin{tabular}{lrrrlrr}
+\toprule
+ & \multicolumn{3}{c}{CPR} & \multicolumn{3}{c}{CRD} \\
+Model & pref. anchor & agree pull & conflict pull & pref. choice & agree pull & conflict pull \\
+\midrule
+gpt\_5.1 & 30 & +0.00 & +0.65 & 4 & +0.02 & +0.27 \\
+gpt\_5.4 & 30 & +0.95 & +0.56 & 0 & +0.01 & +0.01 \\
+gpt\_5.4\_mini & 0 & +0.40 & +0.85 & unstable baseline (excluded) & -- & -- \\
+gpt\_5.4\_nano & 30 & +0.26 & +0.41 & 4 & -0.16 & +0.30 \\
+Llama3.3 & 0 & +0.00 & +0.42 & 4 & -0.00 & +0.00 \\
+Qwen3 & 18 & +1.00 & +0.92 & 4 & +0.16 & +0.64 \\
+\bottomrule
+\end{tabular}
+\end{table}

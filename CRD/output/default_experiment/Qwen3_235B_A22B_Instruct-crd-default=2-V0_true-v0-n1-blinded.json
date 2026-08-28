@@ -1,0 +1,53 @@
+{
+  "model": "Qwen3_235B_A22B_Instruct",
+  "condition": "default=2",
+  "variant": "V0_true",
+  "default_line": "Your contribution this round: 2. This value is pre-selected for you; you can change it if you want.",
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.00077292429071353,
+        "2": 0.9164898787236128,
+        "4": 0.08262407153978946
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "2",
+        "positions": [
+          {
+            "token": "2",
+            "logprob": -0.08720425516366959,
+            "top_logprobs": [
+              {
+                "token": "2",
+                "logprob": -0.08720425516366959
+              },
+              {
+                "token": "4",
+                "logprob": -2.4934542179107666
+              },
+              {
+                "token": "0",
+                "logprob": -7.165329456329346
+              },
+              {
+                "token": "3",
+                "logprob": -9.212203979492188
+              },
+              {
+                "token": "1",
+                "logprob": -11.415328979492188
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9998868745541157,
+  "argmax": "2",
+  "argmax_prob": 0.9164898787236128
+}

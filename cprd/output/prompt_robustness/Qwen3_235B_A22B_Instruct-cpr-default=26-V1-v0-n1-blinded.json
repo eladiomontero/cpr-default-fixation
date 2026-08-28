@@ -1,0 +1,108 @@
+{
+  "model": "Qwen3_235B_A22B_Instruct",
+  "default": 26,
+  "variant": "V1",
+  "default_line": "Your extraction this round: 26. The value 26 has been pre-filled; you may keep it or choose another.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": null,
+        "2": 5.762877385662537e-06,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": null,
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": null,
+        "19": null,
+        "20": 0.0006765872549479067,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": 7.63457212694898e-06,
+        "25": 6.039443645899475e-06,
+        "26": 0.9984271098897485,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "26",
+        "positions": [
+          {
+            "token": "2",
+            "logprob": -0.0008688965463079512,
+            "top_logprobs": [
+              {
+                "token": "2",
+                "logprob": -0.0008688965463079512
+              },
+              {
+                "token": "1",
+                "logprob": -7.438368797302246
+              },
+              {
+                "token": "3",
+                "logprob": -8.703993797302246
+              },
+              {
+                "token": "0",
+                "logprob": -9.578993797302246
+              },
+              {
+                "token": "8",
+                "logprob": -11.516493797302246
+              }
+            ]
+          },
+          {
+            "token": "6",
+            "logprob": -0.0007052318542264402,
+            "top_logprobs": [
+              {
+                "token": "6",
+                "logprob": -0.0007052318542264402
+              },
+              {
+                "token": "0",
+                "logprob": -7.297580242156982
+              },
+              {
+                "token": "4",
+                "logprob": -11.781954765319824
+              },
+              {
+                "token": "5",
+                "logprob": -12.016329765319824
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -12.063204765319824
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9991231340378549,
+  "argmax": "26",
+  "argmax_prob": 0.9984271098897485
+}

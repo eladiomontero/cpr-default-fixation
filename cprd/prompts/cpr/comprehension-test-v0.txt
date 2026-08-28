@@ -1,0 +1,21 @@
+Please, answer these questions carefully to check your understanding of the task.
+
+You may use the table above with the ECUs per token in function of the group extraction. Answer using only numbers.
+
+1. YOU extracted 15 tokens and the rest extracted 45 tokens. How much is the total GROUP extraction (including you)?
+
+2. YOU extracted 5 tokens and the total GROUP extraction is 20. How much did the rest of group extracted (excluding you)?
+
+3. YOU extracted 10 tokens and the rest extracted 50 tokens. Meaning that the GROUP (including you) extracted 60. The total group return is 48 ECUs, you will receive:
+
+4. YOU extracted 10 tokens and the rest extracted 30 tokens. Meaning that the GROUP (including you) extracted 40. The total group return is 52 ECUs, you will receive:
+
+5. YOU extracted 2 tokens and the rest extracted 58 tokens. Meaning that the GROUP (including you) extracted 60. The total group return is 48 ECUs, you will receive:
+
+Answer with exactly 5 lines, one per question, in the format:
+1: <number>
+2: <number>
+3: <number>
+4: <number>
+5: <number>
+Do not include any other text.

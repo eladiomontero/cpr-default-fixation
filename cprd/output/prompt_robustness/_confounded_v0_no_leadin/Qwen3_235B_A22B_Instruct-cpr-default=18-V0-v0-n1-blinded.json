@@ -1,0 +1,108 @@
+{
+  "model": "Qwen3_235B_A22B_Instruct",
+  "default": 18,
+  "variant": "V0",
+  "default_line": "18 is pre-selected for you. You can change it if you want.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": 0.0013313475472577685,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": 0.008414375588797358,
+        "11": null,
+        "12": 0.001212205736376093,
+        "13": null,
+        "14": null,
+        "15": 0.01896209262294711,
+        "16": null,
+        "17": null,
+        "18": 0.957491416799912,
+        "19": null,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "18",
+        "positions": [
+          {
+            "token": "1",
+            "logprob": -0.011358005926012993,
+            "top_logprobs": [
+              {
+                "token": "1",
+                "logprob": -0.011358005926012993
+              },
+              {
+                "token": "2",
+                "logprob": -4.57385778427124
+              },
+              {
+                "token": "0",
+                "logprob": -7.38635778427124
+              },
+              {
+                "token": "8",
+                "logprob": -8.433233261108398
+              },
+              {
+                "token": "3",
+                "logprob": -9.995733261108398
+              }
+            ]
+          },
+          {
+            "token": "8",
+            "logprob": -0.0320805162191391,
+            "top_logprobs": [
+              {
+                "token": "8",
+                "logprob": -0.0320805162191391
+              },
+              {
+                "token": "5",
+                "logprob": -3.9539554119110107
+              },
+              {
+                "token": "0",
+                "logprob": -4.76645565032959
+              },
+              {
+                "token": "<|im_end|>",
+                "logprob": -6.61020565032959
+              },
+              {
+                "token": "2",
+                "logprob": -6.70395565032959
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9874114382952903,
+  "argmax": "18",
+  "argmax_prob": 0.957491416799912
+}

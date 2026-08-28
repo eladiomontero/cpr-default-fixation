@@ -1,0 +1,41 @@
+{
+  "model": "gpt_5.4",
+  "condition": "default=4",
+  "variant": "V0_true",
+  "default_line": "Your contribution this round: 4. This value is pre-selected for you; you can change it if you want.",
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.9768722889597985,
+        "2": null,
+        "4": 0.022973834225534433
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "0",
+        "positions": [
+          {
+            "token": "0",
+            "logprob": -0.02339935302734375,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -0.02339935302734375
+              },
+              {
+                "token": "4",
+                "logprob": -3.7733993530273438
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.999846123185333,
+  "argmax": "0",
+  "argmax_prob": 0.9768722889597985
+}

@@ -1,0 +1,6 @@
+Instructions:
+You and 3 other participants will each choose how many points to extract from a shared resource.
+The total points extracted by the group determine a group reward. This reward is distributed proportionally to each participant's extraction — meaning your earnings depend on both your choice and the choices of the other 3 group members.
+Pick exactly one whole number between 0 and 30.
+Note: Your reward from this task will determine the resources available to you in the next task. The success of your next task depends on how well you do here.
+Use this table as a reference of the group payoff:

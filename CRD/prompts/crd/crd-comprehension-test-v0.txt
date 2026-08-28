@@ -1,0 +1,30 @@
+Please, answer these questions carefully to check your understanding of the task.
+
+1. How many people are in your group (including yourself)?
+
+2. How many ECUs do you start with in your Private Account?
+
+3. If the group's total contribution is BELOW the target, what percentage of your Private Account do you keep? (0-100)
+
+4. If the group's total contribution is EQUAL TO OR ABOVE the target, what percentage of your Private Account do you keep? (0-100)
+
+5. If the group's total contribution is below the target, who loses 90% of their Private Account? Choose one:
+A) No one
+B) Only you
+C) Some members of your group
+D) Every group member
+
+6. Can you recover the ECUs you contributed to the Public Account?
+Yes / No
+
+7. How many rounds does this task last?
+
+Answer with exactly 7 lines, one per question, in the format:
+1: <number>
+2: <number>
+3: <number>
+4: <number>
+5: <letter>
+6: <Yes/No>
+7: <number>
+Do not include any other text.

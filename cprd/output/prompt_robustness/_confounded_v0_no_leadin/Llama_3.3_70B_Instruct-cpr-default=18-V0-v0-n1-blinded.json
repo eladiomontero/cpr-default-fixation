@@ -1,0 +1,108 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "default": 18,
+  "variant": "V0",
+  "default_line": "18 is pre-selected for you. You can change it if you want.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": 5.3157852544244216e-08,
+        "9": null,
+        "10": 8.764248219443636e-08,
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": 6.34880011604368e-09,
+        "18": 0.9999998807907171,
+        "19": 2.061153622438558e-09,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "18",
+        "positions": [
+          {
+            "token": "18",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "8",
+                "logprob": -16.75
+              },
+              {
+                "token": "10",
+                "logprob": -16.25
+              },
+              {
+                "token": "17",
+                "logprob": -18.875
+              },
+              {
+                "token": "18",
+                "logprob": -1.1920929e-07
+              },
+              {
+                "token": "19",
+                "logprob": -20
+              }
+            ]
+          },
+          {
+            "token": "<|eot_id|>",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "<|eot_id|>",
+                "logprob": -8.34465e-06
+              },
+              {
+                "token": "<|eom_id|>",
+                "logprob": -13.6875
+              },
+              {
+                "token": "<|python_tag|>",
+                "logprob": -14.5
+              },
+              {
+                "token": "<|end_header_id|>",
+                "logprob": -14.875
+              },
+              {
+                "token": " addCriterion",
+                "logprob": -15
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 1.0000000300010057,
+  "argmax": "18",
+  "argmax_prob": 0.9999998807907171
+}

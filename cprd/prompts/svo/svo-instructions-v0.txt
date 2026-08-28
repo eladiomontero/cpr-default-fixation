@@ -1,0 +1,12 @@
+Instructions:
+Choose exactly one option from the list presented below.
+Each option is an allocation of points between you and another participant, written as (You, Other).
+There's a 50-50 chance that your allocation preferences will be chosen. That means that
+half of all participants in this experiment will have their decisions implemented (Group A), while
+the other half will not (Group B). If your decisions are chosen, one of your six choices will
+be randomly selected as the final allocation between you and another participant from
+Group B. If you're in Group B, you'll get an allocation chosen by someone in Group A.
+Return exactly one integer from 1 to 9 representing your choice.
+
+List of choices:
+

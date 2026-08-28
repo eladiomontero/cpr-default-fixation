@@ -1,0 +1,74 @@
+{
+  "model": "gpt_5.4",
+  "default": 18,
+  "variant": "V4",
+  "default_line": "Your extraction this round: 18. This value is pre-selected for you; you can change it if you want.\n\nAnswer format: respond with EXACTLY TWO DIGITS (00 to 30), e.g. \"05\" for five, \"20\" for twenty. No other characters.",
+  "padded_format": true,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": null,
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": 0.1726493509062874,
+        "19": null,
+        "20": 0.04946486720944955,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": 0.7737607089576696
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "30",
+        "positions": [
+          {
+            "token": "30",
+            "logprob": -0.25649261474609375,
+            "top_logprobs": [
+              {
+                "token": "30",
+                "logprob": -0.25649261474609375
+              },
+              {
+                "token": "18",
+                "logprob": -1.7564926147460938
+              },
+              {
+                "token": "20",
+                "logprob": -3.0064926147460938
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9958749270734065,
+  "argmax": "30",
+  "argmax_prob": 0.7737607089576696
+}

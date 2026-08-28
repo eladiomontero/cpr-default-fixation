@@ -1,0 +1,108 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "default": 18,
+  "variant": "V2",
+  "default_line": "Your extraction this round: 18. A value of 18 is shown by default; select whatever number you prefer.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": 0.003182780796509667,
+        "9": null,
+        "10": 0.9968159927366047,
+        "11": null,
+        "12": 1.7603463121561693e-06,
+        "13": null,
+        "14": null,
+        "15": 3.4663274126619643e-07,
+        "16": null,
+        "17": null,
+        "18": 4.222851277057527e-06,
+        "19": null,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "10",
+        "positions": [
+          {
+            "token": "10",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "8",
+                "logprob": -5.75
+              },
+              {
+                "token": "10",
+                "logprob": -0.003189087
+              },
+              {
+                "token": "12",
+                "logprob": -13.25
+              },
+              {
+                "token": "15",
+                "logprob": -14.875
+              },
+              {
+                "token": "18",
+                "logprob": -12.375
+              }
+            ]
+          },
+          {
+            "token": "<|eot_id|>",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "<|eot_id|>",
+                "logprob": -6.556511e-06
+              },
+              {
+                "token": "<|eom_id|>",
+                "logprob": -13.9375
+              },
+              {
+                "token": ".",
+                "logprob": -14.3125
+              },
+              {
+                "token": "<|python_tag|>",
+                "logprob": -14.5
+              },
+              {
+                "token": "EMPLARY",
+                "logprob": -15
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 1.000005103363445,
+  "argmax": "10",
+  "argmax_prob": 0.9968159927366047
+}

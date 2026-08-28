@@ -1,0 +1,82 @@
+{
+  "model": "gpt_5.4_nano",
+  "default": 18,
+  "variant": "V4",
+  "default_line": "Your extraction this round: 18. This value is pre-selected for you; you can change it if you want.\n\nAnswer format: respond with EXACTLY TWO DIGITS (00 to 30), e.g. \"05\" for five, \"20\" for twenty. No other characters.",
+  "padded_format": true,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": 0.03720898817234089,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": 0.06951554173311925,
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": 0.582046470070366,
+        "19": null,
+        "20": 0.07399890898357865,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": 0.07877142857898649
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "18",
+        "positions": [
+          {
+            "token": "18",
+            "logprob": -0.5412049889564514,
+            "top_logprobs": [
+              {
+                "token": "18",
+                "logprob": -0.5412049889564514
+              },
+              {
+                "token": "30",
+                "logprob": -2.5412049293518066
+              },
+              {
+                "token": "20",
+                "logprob": -2.6037049293518066
+              },
+              {
+                "token": "10",
+                "logprob": -2.6662049293518066
+              },
+              {
+                "token": "00",
+                "logprob": -3.2912049293518066
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.8415413375383913,
+  "argmax": "18",
+  "argmax_prob": 0.582046470070366
+}

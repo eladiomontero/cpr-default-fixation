@@ -1,0 +1,40 @@
+{
+  "model": "gpt_5.4_mini",
+  "condition": "baseline",
+  "variant": null,
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.6222656903409841,
+        "2": null,
+        "4": 0.3774232196790544
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "0",
+        "positions": [
+          {
+            "token": "0",
+            "logprob": -0.47438812255859375,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -0.47438812255859375
+              },
+              {
+                "token": "4",
+                "logprob": -0.9743881225585938
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9996889100200386,
+  "argmax": "0",
+  "argmax_prob": 0.6222656903409841
+}

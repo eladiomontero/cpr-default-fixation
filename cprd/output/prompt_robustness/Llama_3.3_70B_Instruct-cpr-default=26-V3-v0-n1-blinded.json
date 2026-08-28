@@ -1,0 +1,108 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "default": 26,
+  "variant": "V3",
+  "default_line": "Your extraction this round: 26. The system suggests 26; choose your preferred number.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": 0.059123606568473756,
+        "9": null,
+        "10": 0.9230442307391284,
+        "11": null,
+        "12": 0.00011593278203827863,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": null,
+        "19": null,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": 0.016676578983487567,
+        "26": 0.0005035890497369525,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "10",
+        "positions": [
+          {
+            "token": "10",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "8",
+                "logprob": -2.828125
+              },
+              {
+                "token": "10",
+                "logprob": -0.080078125
+              },
+              {
+                "token": "12",
+                "logprob": -9.0625
+              },
+              {
+                "token": "25",
+                "logprob": -4.09375
+              },
+              {
+                "token": "26",
+                "logprob": -7.59375
+              }
+            ]
+          },
+          {
+            "token": "<|eot_id|>",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "<|eot_id|>",
+                "logprob": -4.4107437e-06
+              },
+              {
+                "token": "<|eom_id|>",
+                "logprob": -14.1875
+              },
+              {
+                "token": "<|python_tag|>",
+                "logprob": -14.5625
+              },
+              {
+                "token": ".",
+                "logprob": -14.875
+              },
+              {
+                "token": "ZeroWidthSpace",
+                "logprob": -15.8125
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.999463938122865,
+  "argmax": "10",
+  "argmax_prob": 0.9230442307391284
+}

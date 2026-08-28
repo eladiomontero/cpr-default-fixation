@@ -1,0 +1,53 @@
+{
+  "model": "gpt_5.4_nano",
+  "condition": "default=0",
+  "variant": "V0_true",
+  "default_line": "Your contribution this round: 0. This value is pre-selected for you; you can change it if you want.",
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.5307230902054657,
+        "2": 0.10450557276190485,
+        "4": 0.3647602899050306
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": -1.0085148811340332,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -0.6335148811340332
+              },
+              {
+                "token": "4",
+                "logprob": -1.0085148811340332
+              },
+              {
+                "token": "2",
+                "logprob": -2.258514881134033
+              },
+              {
+                "token": "8",
+                "logprob": -12.485076904296875
+              },
+              {
+                "token": "-",
+                "logprob": -12.844451904296875
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9999889528724012,
+  "argmax": "0",
+  "argmax_prob": 0.5307230902054657
+}

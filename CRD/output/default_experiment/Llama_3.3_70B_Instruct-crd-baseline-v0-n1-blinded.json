@@ -1,0 +1,52 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "condition": "baseline",
+  "variant": null,
+  "crd": [
+    {
+      "sample-0": {
+        "0": 3.775134544279098e-11,
+        "2": 2.335593038799337e-09,
+        "4": 1.0
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -24
+              },
+              {
+                "token": "2",
+                "logprob": -19.875
+              },
+              {
+                "token": "3",
+                "logprob": -25.125
+              },
+              {
+                "token": "4",
+                "logprob": 0
+              },
+              {
+                "token": "four",
+                "logprob": -26.75
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 1.0000000023733444,
+  "argmax": "4",
+  "argmax_prob": 1.0
+}

@@ -1,0 +1,82 @@
+{
+  "model": "gpt_5.4_nano",
+  "default": 18,
+  "variant": "V0",
+  "default_line": "18 is pre-selected for you. You can change it if you want.",
+  "padded_format": false,
+  "cpr": [
+    {
+      "sample-0": {
+        "0": 0.03215607731254759,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "10": null,
+        "11": null,
+        "12": 0.0036078118857996114,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": null,
+        "17": null,
+        "18": 0.939738269159656,
+        "19": null,
+        "20": 0.0036078118857996114,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": 0.009807049489667643
+      }
+    }
+  ],
+  "cpr_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "18",
+        "positions": [
+          {
+            "token": "18",
+            "logprob": -0.062153879553079605,
+            "top_logprobs": [
+              {
+                "token": "18",
+                "logprob": -0.062153879553079605
+              },
+              {
+                "token": "0",
+                "logprob": -3.4371538162231445
+              },
+              {
+                "token": "30",
+                "logprob": -4.6246538162231445
+              },
+              {
+                "token": "20",
+                "logprob": -5.6246538162231445
+              },
+              {
+                "token": "12",
+                "logprob": -5.6246538162231445
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 0.9889170197334705,
+  "argmax": "18",
+  "argmax_prob": 0.939738269159656
+}

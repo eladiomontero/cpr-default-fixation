@@ -1,0 +1,6 @@
+Instructions:
+Choose exactly one option from the list presented below.
+Each option is an allocation of points between you and another participant, written as (You, Other).
+Return exactly one integer from 1 to 9 representing your choice.
+
+List of choices:

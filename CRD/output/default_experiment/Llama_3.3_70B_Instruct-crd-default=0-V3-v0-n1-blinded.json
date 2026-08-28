@@ -1,0 +1,53 @@
+{
+  "model": "Llama_3.3_70B_Instruct",
+  "condition": "default=0",
+  "variant": "V3",
+  "default_line": "Your contribution this round: 0. The system suggests 0; choose your preferred number.",
+  "crd": [
+    {
+      "sample-0": {
+        "0": 0.0015034391929775724,
+        "2": 3.726653172078671e-06,
+        "4": 0.9984981382248634
+      }
+    }
+  ],
+  "crd_raw_logprobs": [
+    {
+      "sample-0": {
+        "content": "4",
+        "positions": [
+          {
+            "token": "4",
+            "logprob": null,
+            "top_logprobs": [
+              {
+                "token": "0",
+                "logprob": -6.5
+              },
+              {
+                "token": "2",
+                "logprob": -12.5
+              },
+              {
+                "token": "3",
+                "logprob": -19.75
+              },
+              {
+                "token": "4",
+                "logprob": -0.0015029907
+              },
+              {
+                "token": "four",
+                "logprob": -21.125
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "coverage": 1.000005304071013,
+  "argmax": "4",
+  "argmax_prob": 0.9984981382248634
+}

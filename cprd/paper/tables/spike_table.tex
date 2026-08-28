@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Spike: probability mass placed on the exact default value (0--1), by model and default. Rows sorted by mean spike, descending.}
+\label{tab:spike_table}
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Model & $d{=}0$ & $d{=}11$ & $d{=}18$ & $d{=}23$ & $d{=}26$ & $d{=}30$ & Mean \\
+\midrule
+Qwen3 & 0.64 & 1.00 & 1.00 & 1.00 & 1.00 & 0.96 & 0.93 \\
+gpt\_5.4\_mini & 0.40 & 0.94 & 0.91 & 0.95 & 0.90 & 0.56 & 0.78 \\
+gpt\_5.4 & 0.11 & 0.50 & 0.96 & 0.98 & 0.27 & 0.95 & 0.63 \\
+gpt\_5.1 & -0.00 & 0.65 & 0.87 & 0.77 & 0.98 & 0.00 & 0.55 \\
+gpt\_5.4\_nano & 0.29 & 0.35 & 0.73 & 0.33 & 0.33 & 0.26 & 0.38 \\
+Llama3.3 & 0.00 & 1.00 & 0.99 & 0.12 & 0.01 & 0.01 & 0.35 \\
+\midrule
+column mean & 0.24 & 0.74 & 0.91 & 0.69 & 0.58 & 0.46 & 0.60 \\
+\bottomrule
+\end{tabular}
+\end{table}

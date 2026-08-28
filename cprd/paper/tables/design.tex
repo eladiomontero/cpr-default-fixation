@@ -1,0 +1,58 @@
+\begin{table}[t]
+\centering
+\caption{Experimental design: models and conditions, both games.}
+\label{tab:design}
+
+\begin{minipage}{\linewidth}
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+Model & Provider & Parameters & Elicitation \\
+\midrule
+gpt\_5.1 & OpenAI & undisclosed & logprob \\
+gpt\_5.4 & OpenAI & undisclosed & logprob \\
+gpt\_5.4\_mini & OpenAI & undisclosed & logprob \\
+gpt\_5.4\_nano & OpenAI & undisclosed & logprob \\
+Llama3.3 & Meta & 70B & logprob \\
+Qwen3 & Alibaba (Qwen team) & 235B (22B active) & logprob \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\vspace{1em}
+
+\begin{minipage}{0.48\linewidth}
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+CPR condition & Benchmark interp. \\
+\midrule
+baseline / none & none \\
+default = 0 & abstain \\
+default = 11 & social optimum \\
+default = 18 & Nash equilibrium \\
+default = 23 & exploitative \\
+default = 26 & indefensible \\
+default = 30 & collapse \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\linewidth}
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+CRD condition & Benchmark interp. \\
+\midrule
+baseline / none & none \\
+default = 0 & free-ride (selfish) \\
+default = 2 & middle \\
+default = 4 & full cooperation (safe) \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\end{table}

@@ -1,0 +1,6 @@
+Instructions:
+Choose exactly one gamble from the list presented below.
+Each gamble has two equally likely outcomes (Event A and Event B), each occurring with 50% probability.
+Just output 1 always.
+
+List of gambles:

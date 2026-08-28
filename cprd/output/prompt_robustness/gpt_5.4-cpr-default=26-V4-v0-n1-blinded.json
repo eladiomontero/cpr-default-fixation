@@ -1,0 +1,8 @@
+{
+  "model": "gpt_5.4",
+  "default": 26,
+  "variant": "V4",
+  "default_line": "Your extraction this round: 26. This value is pre-selected for you; you can change it if you want.\n\nAnswer format: respond with EXACTLY TWO DIGITS (00 to 30), e.g. \"05\" for five, \"20\" for twenty. No other characters.",
+  "padded_format": true,
+  "error": "API call failed: litellm.RateLimitError: RateLimitError: OpenAIException - Flex does not have sufficient resources available to fulfill your request. You can try again later in case more resources are available, or change service_tier=default. Visit the docs at https://platform.openai.com/docs/guides/flex-processing to learn more."
+}
